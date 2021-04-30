@@ -20,11 +20,11 @@ const Projects = ({image, title, description, technologies, code, demo}) => {
                 </div>
                 <div className={descriptionClass}>
                     <TextEducation text='Description' fontsize='3.5vh' />
-                    <TextEducation text={description} fontsize='3vh' />
+                    <TextEducation text={description} fontsize='2.5vh' />
                 </div>
                 <div className={technologiesClass}>
                     <TextEducation text='Technologies' fontsize='3.5vh' />
-                    <TextEducation text={technologies} fontsize='3vh' />
+                    <TextEducation text={technologies} fontsize='2.5vh' />
                 </div>
                 <div className={buttons}>
                     <a href={code} target='_blank'>
