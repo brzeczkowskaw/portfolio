@@ -1,0 +1,88 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    background-color: #111111;
+}
+
+.container {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    padding-bottom: 60px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr .5fr 1fr .5fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "header image"
+      "getcv image"
+      "sendemail image"
+      "linkedin image"
+      "github image";
+
+    @media (max-width: 450px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.3fr 0.3fr 0.3fr 0.3fr 0.8fr;
+        grid-template-areas: 
+            "header"
+            "getcv"
+            "sendemail"
+            "linkedin"
+            "github"
+            "image";
+    }
+
+    @media (min-width: 451px) and (max-width: 600px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.8fr;
+        grid-template-areas: 
+            "header"
+            "getcv"
+            "sendemail"
+            "linkedin"
+            "github"
+            "image";
+    }
+}
+
+.image { 
+    grid-area: image;
+    display: flex;
+    justify-content: center; 
+}
+
+.header { 
+    grid-area: header; 
+}
+
+.getcv { 
+    grid-area: getcv; 
+    display: flex;
+    justify-content: center;
+}
+
+.sendemail { 
+    grid-area: sendemail; 
+    display: flex;
+    justify-content: center;
+}
+
+.linkedin { 
+    grid-area: linkedin; 
+    display: flex;
+    justify-content: center;
+}
+
+.github { 
+    grid-area: github;
+    display: flex;
+    justify-content: center;
+}

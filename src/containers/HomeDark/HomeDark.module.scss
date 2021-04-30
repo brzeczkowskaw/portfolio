@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    background-color: #111111;
+}
+
+.container {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "photo hello"
+      "photo text";
+
+      @media (max-width: 450px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto .5fr 1fr;
+        grid-template-areas: 
+            "hello"
+            "text"
+            "photo";
+      }
+
+      @media (min-width: 451px) and (max-width: 600px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto .3fr .9fr;
+        grid-template-areas: 
+            "hello"
+            "text"
+            "photo";
+      }
+}
+
+.photo { 
+    grid-area: photo; 
+    display: flex;
+    justify-content: center;
+}
+
+.hello { 
+    grid-area: hello;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.text { 
+    grid-area: text; 
+    white-space: pre-line;
+
+    @media (max-width: 450px) {
+        width: 100%;
+    }
+}

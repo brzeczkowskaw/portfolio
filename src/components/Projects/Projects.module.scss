@@ -1,0 +1,88 @@
+.projects {
+    background-color: #BADFBE;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    height: 600px;
+    width: 1234px;
+    padding-bottom: 5vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    @media (max-width: 450px) {
+        width: 390px;
+        height: 600px;
+    }
+
+    @media (min-width: 451px) and (max-width: 600px) {
+        width: 500px;
+        height: 610px;
+    }
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr auto;
+    gap: 0px 0px;
+    grid-template-areas:
+      "logo titleClass"
+      "logo descriptionClass"
+      "logo technologiesClass"
+      "logo buttons";
+    padding-right: 2vw;
+
+    @media (max-width: 450px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "titleClass"
+            "descriptionClass"
+            "technologiesClass"
+            "logo"
+            "buttons";
+        width: 330px;
+        height: 610px;
+    }
+
+    @media (min-width: 451px) and (max-width: 600px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "titleClass"
+            "descriptionClass"
+            "technologiesClass"
+            "logo"
+            "buttons";
+        width: 390px;
+        height: 635px;
+    }
+}
+
+.logo { 
+    grid-area: logo; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.titleClass { 
+    grid-area: titleClass; 
+}
+
+.descriptionClass { 
+    grid-area: descriptionClass; 
+}
+
+.technologiesClass { 
+    grid-area: technologiesClass; 
+}
+
+.buttons { 
+    grid-area: buttons; 
+    display: flex;
+    justify-content: space-between; 
+}

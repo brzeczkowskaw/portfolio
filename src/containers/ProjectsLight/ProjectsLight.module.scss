@@ -1,0 +1,37 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    background-color: #ffffff;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.container {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "title"
+        "items";
+}
+
+.title { 
+    grid-area: title; 
+}
+
+.items { 
+    grid-area: items; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}

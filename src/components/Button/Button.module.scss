@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+.button {
+    background-color: #0D5714;
+    border: 3px solid #26F3E7;
+    border-radius: 20px;
+    font-size: 35px;
+    font-family: 'Abhaya Libre', serif;
+    color: #26F3E7;
+    height: 55px;
+    width: 269px;
+    outline: none;
+    padding: 2px;
+    margin: 2px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    @media (max-width: 450px) {
+        width: 170px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    @media (min-width: 451px) and (max-width: 600px) {
+        width: 180px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
