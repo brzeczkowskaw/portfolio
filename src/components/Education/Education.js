@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import TextEducation from '../TextEducation';
+import EducationText from '../EducationText';
 import TextLight from '../TextLight';
 
 import {education, items, logo, years, description} from './Education.module.scss';
@@ -16,7 +16,7 @@ const Education = ({image, year, text}) => {
                     <TextLight text={year} fontsize='30px' />
                 </div>
                 <div className={description}>
-                    <TextEducation text={text} fontsize='3.9vh' />
+                    <EducationText text={text} fontsize='3vh' />
                 </div>
             </div>
         </div>

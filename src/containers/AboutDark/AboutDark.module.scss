@@ -51,3 +51,11 @@ html, body {
 .myEducation {
     grid-area: myEducation;
 }
+
+.educationIcons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
