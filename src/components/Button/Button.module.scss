@@ -23,9 +23,18 @@
         font-size: 20px;
     }
 
-    @media (min-width: 451px) and (max-width: 600px) {
-        width: 180px;
+    @media (min-width: 451px) and (max-width: 535px) {
+        width: 170px;
         height: 50px;
         font-size: 20px;
+    }
+
+    @media (min-width: 536px) and (max-width: 580px) {
+        width: 200px;
+        font-size: 22px;
+    }
+
+    @media (min-width: 581px) and (max-width: 800px) {
+        width: 210px;
     }
 }

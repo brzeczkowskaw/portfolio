@@ -7,7 +7,15 @@
         height: 100px;
     }
 
-    @media (min-width: 451px) and (max-width: 600px) {
-        height: 150px;
+    @media (min-width: 451px) and (max-width: 535px) {
+        height: 100px;
+    }
+
+    @media (min-width: 536px) and (max-width: 800px) {
+        height: 120px;
+    }
+
+    @media (min-width: 801px) and (max-width: 1250px) {
+        height: 180px;
     }
 }

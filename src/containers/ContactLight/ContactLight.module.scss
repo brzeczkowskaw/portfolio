@@ -39,7 +39,7 @@ html, body {
             "image";
     }
 
-    @media (min-width: 451px) and (max-width: 600px) {
+    @media (min-width: 451px) and (max-width: 1050px) {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.8fr;
