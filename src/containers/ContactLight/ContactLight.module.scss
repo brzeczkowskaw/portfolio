@@ -9,6 +9,11 @@ html, body {
     position: absolute;
     width: 100%; 
     background-color: #ffffff;
+
+    
+    @media (min-width: 1051px) {
+        height: auto;
+    }
 }
 
 .container {
