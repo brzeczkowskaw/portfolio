@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+.paragraph {
+    font-family: 'Abhaya Libre', sans-serif;
+    color: #0D5714;
+    text-align: left;
+
+    @media (max-width: 450px) {
+        width: 80vw;
+        margin-bottom: 5px;
+    }
+
+    @media (min-width: 451px) and (max-width: 535px) {
+        width: 65vw;
+        margin-bottom: 1px;
+    }
+
+    @media (min-width: 536px) and (max-width: 580px) {
+        width: 78vw;
+    }
+
+    @media (min-width: 581px) and (max-width: 700px) {
+        width: 78vw;
+    }
+
+    @media (min-width: 701px) and (max-width: 800px) {
+        width: 65vw;
+    }
+}
