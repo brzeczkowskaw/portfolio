@@ -17,16 +17,16 @@ class App extends Component {
       <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Switch>
-            <Route exact path='/' >
+            <Route exact path='/portfolio' >
               {colorTheme === 'dark' ? <HomeDark /> : <HomeLight/>}
             </Route>
-            <Route exact path='/about'>
+            <Route exact path='/portfolio/about'>
               {colorTheme === 'dark' ? <AboutDark /> : <AboutLight />}
             </Route>
-            <Route exact path='/projects' >
+            <Route exact path='/portfolio/projects' >
               {colorTheme === 'dark' ? <ProjectsDark /> : <ProjectsLight />}
             </Route>
-           <Route exact path='/contact' >
+           <Route exact path='/portfolio/contact' >
               {colorTheme === 'dark' ? <ContactDark /> : <ContactLight />}
             </Route>
           </Switch>
