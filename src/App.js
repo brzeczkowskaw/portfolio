@@ -1,5 +1,5 @@
 import React, { Component }  from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, HashRouter, Route } from 'react-router-dom';
 import './App.scss';
 import HomeLight from './containers/HomeLight';
 import AboutLight from './containers/AboutLight';
@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
-          <Switch>
+          <HashRouter>
             <Route exact path='/' >
               {colorTheme === 'dark' ? <HomeDark /> : <HomeLight/>}
             </Route>
@@ -29,7 +29,7 @@ class App extends Component {
            <Route exact path='/contact' >
               {colorTheme === 'dark' ? <ContactDark /> : <ContactLight />}
             </Route>
-          </Switch>
+          </HashRouter>
         </div>
       </Router>
     );
