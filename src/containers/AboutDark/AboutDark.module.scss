@@ -1,0 +1,61 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    background-color: #111111;
+}
+
+.container {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 0px 0px;
+    grid-template-areas:
+      "text"
+      "mySkills"
+      "myEducation";
+    justify-items: center;
+}
+
+.text {
+    white-space: pre-line;
+    grid-area: text;
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.mySkills {
+    grid-area: mySkills;
+    width: 80%;
+    margin-bottom: 5vh;
+}
+
+.skillsIcons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.myEducation {
+    grid-area: myEducation;
+}
+
+.educationIcons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
