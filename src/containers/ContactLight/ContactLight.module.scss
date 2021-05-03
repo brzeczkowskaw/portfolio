@@ -8,12 +8,13 @@ html, body {
 .main {
     position: absolute;
     width: 100%;
+    height: auto;
     background-color: #ffffff;
 }
 
 .container {
     margin-top: 15vh;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     padding-bottom: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -7,12 +7,13 @@ html, body {
 .main {
     position: absolute;
     width: 100%;
+    height: auto;
     background-color: #111111;
 }
 
 .container {
     margin-top: 15vh;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     padding-bottom: 60px;
     height: 100%;
     display: grid;
