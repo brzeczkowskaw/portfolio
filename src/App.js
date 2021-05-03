@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     const colorTheme = localStorage.getItem('colorMode');
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Switch>
             <Route exact path='/' >
