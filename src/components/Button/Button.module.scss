@@ -17,8 +17,14 @@
         cursor: pointer;
     }
 
-    @media (max-width: 450px) {
-        width: 170px;
+    @media (max-width: 360px) {
+        width: 150px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    @media (min-width: 361px) and (max-width: 450px) {
+        width: 160px;
         height: 50px;
         font-size: 20px;
     }
