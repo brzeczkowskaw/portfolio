@@ -16,15 +16,15 @@ const Projects = ({image, title, description, technologies, code, demo}) => {
                     <SmallPicture image={image} />
                 </div>
                 <div className={titleClass}>
-                    <TextLight text={title} fontsize='5vh' />
+                    <TextLight text={title} fontsize='2.3em' />
                 </div>
                 <div className={descriptionClass}>
-                    <TextEducation text='Description' fontsize='3.5vh' />
-                    <TextEducation text={description} fontsize='2.5vh' />
+                    <TextEducation text='Description' fontsize='2em' />
+                    <TextEducation text={description} fontsize='1.5em' />
                 </div>
                 <div className={technologiesClass}>
-                    <TextEducation text='Technologies' fontsize='3.5vh' />
-                    <TextEducation text={technologies} fontsize='2.5vh' />
+                    <TextEducation text='Technologies' fontsize='2em' />
+                    <TextEducation text={technologies} fontsize='1.5em' />
                 </div>
                 <div className={buttons}>
                     <a href={code} target='_blank'>

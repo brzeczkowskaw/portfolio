@@ -38,7 +38,7 @@ html, body {
             "photo";
       }
 
-      @media (min-width: 451px) and (max-width: 749px) {
+      @media (min-width: 451px) and (max-width: 900px) {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto .3fr .9fr;

@@ -2,24 +2,24 @@
     background-color: #BADFBE;
     box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    margin-top: 5vh;
+    margin-top: 3vh;
     display: flex;
     justify-content: center; 
     align-items: center;
 
     @media (max-width: 360px) {
         width: 340px;
-        height: 700px;
+        height: 900px;
     }
 
     @media (min-width: 361px) and (max-width: 450px) {
         width: 360px;
-        height: 680px;
+        height: 850px;
     }
 
     @media (min-width: 451px) and (max-width: 535px) {
         width: 420px;
-        height: 680px;
+        height: 800px;
     }
 
     @media (min-width: 536px) and (max-width: 580px) {
@@ -29,22 +29,22 @@
 
     @media (min-width: 581px) and (max-width: 700px) {
         width: 570px;
-        height: 700px;
+        height: 850px;
     }
 
     @media (min-width: 701px) and (max-width: 800px) {
         width: 600px;
-        height: 700px;
+        height: 820px;
     }
 
     @media (min-width: 801px) and (max-width: 1000px) {
         width: 780px;
-        height: 720px;
+        height: 850px;
     }
 
     @media (min-width: 1001px) and (max-width: 1200px) {
         width: 800px;
-        height: 800px;
+        height: 850px;
     }
 
     @media (min-width: 1201px) and (max-width: 1250px) {
@@ -86,7 +86,7 @@
             "logo"
             "buttons";
         width: 310px;
-        height: 700px;
+        height: 900px;
     }
 
     @media (min-width: 361px) and (max-width: 450px) {
@@ -100,7 +100,7 @@
             "logo"
             "buttons";
         width: 330px;
-        height: 680px;
+        height: 850px;
     }
 
     @media (min-width: 451px) and (max-width: 535px) {
@@ -113,8 +113,8 @@
             "technologiesClass"
             "logo"
             "buttons";
-        width: 350px;
-        height: 680px;
+        width: 380px;
+        height: 800px;
     }
 
     @media (min-width: 536px) and (max-width: 580px) {
@@ -127,7 +127,7 @@
             "technologiesClass"
             "logo"
             "buttons";
-        width: 450px;
+        width: 480px;
         height: 740px;
     }
 
@@ -142,7 +142,7 @@
             "logo"
             "buttons";
         width: 530px;
-        height: 700px;
+        height: 850px;
     }
 
     @media (min-width: 701px) and (max-width: 800px) {
@@ -156,7 +156,7 @@
             "logo"
             "buttons";
         width: 550px;
-        height: 700px;
+        height: 820px;
     }
 
     @media (min-width: 801px) and (max-width: 1000px) {
@@ -170,7 +170,7 @@
             "logo"
             "buttons";
         width: 700px;
-        height: 720px;
+        height: 850px;
     }
 
     @media (min-width: 1001px) and (max-width: 1200px) {
@@ -183,8 +183,8 @@
             "technologiesClass"
             "logo"
             "buttons";
-        width: 600px;
-        height: 800px;
+        width: 700px;
+        height: 850px;
     }
 
     @media (min-width: 1201px) and (max-width: 1250px) {
