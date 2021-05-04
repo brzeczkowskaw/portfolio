@@ -9,16 +9,11 @@ html, body {
     position: absolute;
     width: 100%; 
     background-color: #ffffff;
-
-    @media (max-width: 1051px) {
-        height: 100vh;
-    }
 }
 
 .container {
     margin-top: 15vh;
-    margin-bottom: 5vh;
-    padding-bottom: 60px;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr .5fr 1fr .5fr 1fr;
@@ -33,7 +28,7 @@ html, body {
     @media (max-width: 450px) {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 0.3fr 0.3fr 0.3fr 0.3fr 0.8fr;
+        grid-template-rows: 0.2fr 0.1fr 0.1fr 0.1fr 0.1fr 0.4fr;
         grid-template-areas: 
             "header"
             "getcv"
