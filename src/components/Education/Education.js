@@ -16,7 +16,7 @@ const Education = ({image, year, text}) => {
                     <TextLight text={year} fontsize='30px' />
                 </div>
                 <div className={description}>
-                    <EducationText text={text} fontsize='3vh' />
+                    <EducationText text={text} fontsize='1.25em' />
                 </div>
             </div>
         </div>

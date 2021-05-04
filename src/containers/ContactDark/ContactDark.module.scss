@@ -8,8 +8,7 @@ html, body {
     width: 100%;
     background-color: #111111;
 
-    
-    @media (min-width: 1051px) {
+    @media (max-width: 1051px) {
         height: 100vh;
     }
 }

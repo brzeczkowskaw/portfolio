@@ -9,7 +9,7 @@ const Skills = ({text, image}) => {
         <div className={skills}>
             <div className={items}>
               <img  src={image} alt={text} height="50%" />
-              <TextLight text={text} fontsize="3vh" />
+              <TextLight text={text} fontsize="1.5em" />
             </div>
         </div>
     )

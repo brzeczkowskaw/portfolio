@@ -10,7 +10,7 @@ html, body {
     width: 100%; 
     background-color: #ffffff;
 
-    @media (min-width: 1051px) {
+    @media (max-width: 1051px) {
         height: 100vh;
     }
 }
