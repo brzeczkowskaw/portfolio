@@ -9,15 +9,11 @@ html, body {
     position: absolute;
     width: 100%;
     background-color: #ffffff;
-    
-    @media (min-width: 1051px) {
-        height: 100vh;
-    }
 }
 
 .container {
     margin-top: 15vh;
-    margin-bottom: 5vh;
+    height: 100vh;
     margin-left: 10vw;
     margin-right: 10vw;
     padding-bottom: 60px;
