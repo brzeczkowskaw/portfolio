@@ -6,11 +6,11 @@ import Projects from '../../components/Projects';
 
 import {main, container, title, items} from './ProjectsDark.module.scss';
 
-import RecipeFinder from '../../assets/RecipeFinder.png';
 import MyPlants from '../../assets/MyPlants.png';
 import Yahtzee from '../../assets/Yahtzee.png';
 import StarWars from '../../assets/StarWars.png';
 import MyPage from '../../assets/MyPage.png';
+import RecipeFinder from '../../assets/RecipeFinder.png';
 
 const recipeFinderDescription = 'Fully responsive application which uses TheMealDB API. The idea of this app is to draw a recipe when you have no idea what to cook. It shows random recipes, after choosing one, user can see the ingredients and preparation method. It also suggests other meals from the same category.';
 const recipeFinderTechnologies = 'Affinity Designer, CSS, ESLint, Figma, HTML, Postman, TheMealDB API, Vue.js';
