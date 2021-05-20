@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.47ad83cc.chunk.css",
-    "main.js": "/portfolio/static/js/main.28eff8ff.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.28eff8ff.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.71c53a7c.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.71c53a7c.js.map",
-    "static/js/2.8b64d876.chunk.js": "/portfolio/static/js/2.8b64d876.chunk.js",
-    "static/js/2.8b64d876.chunk.js.map": "/portfolio/static/js/2.8b64d876.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.47ad83cc.chunk.css.map": "/portfolio/static/css/main.47ad83cc.chunk.css.map",
-    "static/js/2.8b64d876.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8b64d876.chunk.js.LICENSE.txt",
-    "static/media/ContactMe.b8b37b55.png": "/portfolio/static/media/ContactMe.b8b37b55.png",
-    "static/media/Esc.6fbea3ed.png": "/portfolio/static/media/Esc.6fbea3ed.png",
-    "static/media/Main.e4bb8e1c.png": "/portfolio/static/media/Main.e4bb8e1c.png",
-    "static/media/MyPage.7a9fa35c.png": "/portfolio/static/media/MyPage.7a9fa35c.png",
-    "static/media/MyPlants.8166a5ef.png": "/portfolio/static/media/MyPlants.8166a5ef.png",
-    "static/media/StarWars.5045f001.png": "/portfolio/static/media/StarWars.5045f001.png",
-    "static/media/Uep.59cfd1ce.png": "/portfolio/static/media/Uep.59cfd1ce.png",
-    "static/media/Yahtzee.846b2801.png": "/portfolio/static/media/Yahtzee.846b2801.png"
+    "main.css": "./static/css/main.d2a36608.chunk.css",
+    "main.js": "./static/js/main.21b0da87.chunk.js",
+    "main.js.map": "./static/js/main.21b0da87.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.f53835bd.js",
+    "runtime-main.js.map": "./static/js/runtime-main.f53835bd.js.map",
+    "static/js/2.8b64d876.chunk.js": "./static/js/2.8b64d876.chunk.js",
+    "static/js/2.8b64d876.chunk.js.map": "./static/js/2.8b64d876.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.d2a36608.chunk.css.map": "./static/css/main.d2a36608.chunk.css.map",
+    "static/js/2.8b64d876.chunk.js.LICENSE.txt": "./static/js/2.8b64d876.chunk.js.LICENSE.txt",
+    "static/media/ContactMe.b8b37b55.png": "./static/media/ContactMe.b8b37b55.png",
+    "static/media/Esc.6fbea3ed.png": "./static/media/Esc.6fbea3ed.png",
+    "static/media/Main.e4bb8e1c.png": "./static/media/Main.e4bb8e1c.png",
+    "static/media/MyPage.7a9fa35c.png": "./static/media/MyPage.7a9fa35c.png",
+    "static/media/MyPlants.8166a5ef.png": "./static/media/MyPlants.8166a5ef.png",
+    "static/media/RecipeFinder.e928b24a.png": "./static/media/RecipeFinder.e928b24a.png",
+    "static/media/StarWars.5045f001.png": "./static/media/StarWars.5045f001.png",
+    "static/media/Uep.59cfd1ce.png": "./static/media/Uep.59cfd1ce.png",
+    "static/media/Yahtzee.846b2801.png": "./static/media/Yahtzee.846b2801.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.71c53a7c.js",
+    "static/js/runtime-main.f53835bd.js",
     "static/js/2.8b64d876.chunk.js",
-    "static/css/main.47ad83cc.chunk.css",
-    "static/js/main.28eff8ff.chunk.js"
+    "static/css/main.d2a36608.chunk.css",
+    "static/js/main.21b0da87.chunk.js"
   ]
 }
