@@ -6,10 +6,16 @@ import Projects from '../../components/Projects';
 
 import {main, container, title, items} from './ProjectsDark.module.scss';
 
+import RecipeFinder from '../../assets/RecipeFinder.png';
 import MyPlants from '../../assets/MyPlants.png';
 import Yahtzee from '../../assets/Yahtzee.png';
 import StarWars from '../../assets/StarWars.png';
 import MyPage from '../../assets/MyPage.png';
+
+const recipeFinderDescription = 'Fully responsive application which uses TheMealDB API. The idea of this app is to draw a recipe when you have no idea what to cook. It shows random recipes, after choosing one, user can see the ingredients and preparation method. It also suggests other meals from the same category.';
+const recipeFinderTechnologies = 'Affinity Designer, CSS, ESLint, Figma, HTML, Postman, TheMealDB API, Vue.js';
+const recipeFinderCode = 'https://github.com/brzeczkowskaw/DTT-test';
+const recipeFinderDemo = 'https://brzeczkowskaw.github.io/DTT-test/#/';
 
 const myPlantsDescription = 'Fully responsive application for plant lovers. It allows to search a database of plants as well as adding plants to it. Logged user can create his own collection of plants, add events to calendar and talk to other users.';
 const myPlantsTechnologies = 'Affinity Designer, ESLint, Express.js, Figma, Heroku, HTML5, Jest, Jira, MongoDB, Mongoose, Node.js, ReactJS, Scrum, SCSS, TypeScript';
@@ -42,6 +48,7 @@ const ProjectsDark = () => {
                     <HeaderDark text={headerText} fontSize='50px' />
                 </div>
                 <div className={items}>
+                    <Projects image={RecipeFinder} title='Recipe Finder' description={recipeFinderDescription} technologies={recipeFinderTechnologies} code={recipeFinderCode} demo={recipeFinderDemo} />
                     <Projects image={MyPlants} title='My Plants' description={myPlantsDescription} technologies={myPlantsTechnologies} code={myPlantsCode} demo={myPlantsDemo} />
                     <Projects image={Yahtzee} title='Yahtzee' description={yahtzeeDescription} technologies={yahtzeeTechnologies} code={yahtzeeCode} demo={yahtzeeDemo} />
                     <Projects image={StarWars} title='Star Wars quiz' description={starwarsDescription} technologies={starwarsTechnologies} code={starwarsCode} demo={starwarsDemo} />
