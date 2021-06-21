@@ -21,7 +21,7 @@ const ContactDark = () => {
                 <HeaderDark text="Contact me" fontsize='50px' />
             </div>
             <div className={getcv}>
-                <a href='https://smallpdf.com/shared#st=dca07250-1e04-41d1-9cf7-415e4c43e05a&fn=Weronika+Brz%C4%99czkowska-Kuzianik+-+CV.pdf&ct=1619807418270&tl=share-document&rf=link' target='_blank'>
+                <a href='https://res.cloudinary.com/ded5al291/image/upload/v1619807344/Weronika_Brz%C4%99czkowska-Kuzianik_-_CV_djeeur.pdf' target='_blank'>
                     <Button text='CV' />
                 </a>
             </div>
